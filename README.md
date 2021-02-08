@@ -3,3 +3,6 @@
 
 # Packages
 Please install IPAddressRange.4.1.2 from NuGet Gallery.
+
+# Notes
+- This tool works with IPV4, has not yet been tested with IPV6.
