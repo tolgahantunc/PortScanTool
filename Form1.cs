@@ -205,7 +205,7 @@ namespace PortScanTool
             foreach (IPAddress ip in IPAddresses)
             {
                 int startPort, endPort, nextStartPort, nextEndPort, maxPort, initialEndPort;
-                maxPort = 140;
+                maxPort = 65535;
 
                 //Calculate total parallel actions need to be run
                 if (m_TaskNumber > 0)
