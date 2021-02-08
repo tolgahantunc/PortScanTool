@@ -101,8 +101,8 @@ namespace PortScanTool
             lblParallelTaskNumberValue.Text = tb.Value.ToString();
             if (!Int16.TryParse(tb.Value.ToString(), out m_TaskNumber))
             {
-                MessageBox.Show("Task number is not parseble. For more details please check Windows Event Logs.");
-                Program.Log.WriteEntry($"Exception occured. Task number is not parseble: {tb.Value.ToString()}");
+                MessageBox.Show("Task number is not parseable. For more details please check Windows Event Logs.");
+                Program.Log.WriteEntry($"Exception occured. Task number is not parseable: {tb.Value.ToString()}");
                 return;
             }
         }
